@@ -1,6 +1,6 @@
 ---
-title: "BIP- README"
-description: ""
+title: "Lista dei BIP"
+description: "Tabella riepilogativa dei BIP"
 date: 
 draft: false
 weight: 100
@@ -11,10 +11,17 @@ contributors: ["ilcompratoreconsapevole"]
 
 [Originale](https://github.com/bitcoin/bips/blob/master/README.mediawiki)
 
-Le persone che desiderano inviare BIP, devono prima proporre la loro idea o documento alla mailing list [bitcoin-dev@lists.linuxfoundation.org](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev) (non assegnare un numero - leggi BIP 2 per l'intero processo). Dopo la discussione, si prega di aprire un PR. Dopo la revisione e l'accettazione, verrà pubblicato qui.
+Le persone che desiderano inviare un BIP, devono prima proporre la loro idea o documento alla mailing list [bitcoin-dev@lists.linuxfoundation.org](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev) (non assegnare un numero - leggi [BIP 2]() per l'intero processo). Dopo la discussione, si prega di aprire una PR. Successivamente alla revisione e accettazione, verrà pubblicato qui.
 
-Siamo abbastanza liberali nell’approvazione dei BIP e cerchiamo di non essere troppo coinvolti nel processo decisionale per conto della comunità. L'eccezione avviene in casi molto rari di risoluzione delle controversie quando una decisione è controversa e non può essere concordata. In questi casi, l’opzione conservativa sarà sempre preferita.
+Siamo abbastanza liberali nell’approvazione dei BIP e cerchiamo di non essere troppo coinvolti nel processo decisionale per conto della comunità. L'eccezione avviene in casi molto rari di risoluzione delle controversie quando una decisione non può essere concordata. In questi casi, l’opzione conservativa sarà sempre preferita.
 
-Avere un BIP qui non lo rende uno standard formalmente accettato finché il suo stato non diventa Finale o Attivo.
+Avere un BIP nella lista non lo rende uno standard formalmente accettato finché il suo stato non diventa Final o Active (N.d.T. in italiano *Finale o Attivo*).
 
 Coloro che propongono modifiche dovrebbero considerare che, in ultima analisi, il consenso potrebbe dipendere dal consenso degli utenti Bitcoin (vedi anche: [maggioranza economica](https://en.bitcoin.it/wiki/Economic_majority)).
+
+| Numero                      | Layer | Titolo                     | Owner       | Tipo    | Stato    |
+| --------------------------- | ----- | -------------------------- | ----------- | ------- | -------- |
+| [1](/bitcoin/bips/bip-0001) |       | BIP Purpose and Guidelines | Amir Taaki  | Process | Replaced |
+<!---
+| [2](/bitcoin/bips/bip-0002) |       | BIP process, revised       | Luke Dashjr | Process | Active   |
+-->
