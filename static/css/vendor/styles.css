@@ -1,0 +1,18 @@
+.summary {
+    float: left; 
+    margin-top: -0.2em;
+    line-height: 1;
+    margin-right: .2em;
+}
+
+.bip_preamble {
+    background-color : #f6f8fa; 
+    padding : 16px; 
+    overflow: auto; 
+    border-radius: 6px;
+    color: black;
+}
+
+.summary::after {
+    content: "⌞";
+}
